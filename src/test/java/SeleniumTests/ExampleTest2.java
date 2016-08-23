@@ -14,7 +14,7 @@ public class ExampleTest2 {
 
     WebDriver driver;
 
-    public Logger logger = Logger.getLogger(ExampleTest2.class.getName());
+    private static final Logger logger = Logger.getLogger(ExampleTest2.class.getName());
     public Handler fileHandler = null;
     public Formatter formatter = null;
 

@@ -22,7 +22,7 @@ public class SecondaryPage extends AbstractPage {
         try {
             driver.findElement(By.id(ClickButton)).click();
         } catch (Exception e) {
-            Logger.log(Level.SEVERE, "Failed to find element ", e);
+           System.out.println ("Failed to find element");
         }
 
         return new SecondaryPage(driver);

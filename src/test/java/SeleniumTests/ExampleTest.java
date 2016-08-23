@@ -1,5 +1,6 @@
 package SeleniumTests;
 
+import PageObjects.AbstractPage;
 import PageObjects.MainPage;
 import org.junit.After;
 import org.junit.Assert;
@@ -9,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 
+import java.io.IOException;
 import java.util.logging.*;
 
 public class ExampleTest {
@@ -19,17 +21,25 @@ public class ExampleTest {
     Handler fileHandler = null;
     Formatter formatter = null;
 
+    public String FilePath = "./test.log";
+
    // Set up Logging and formatting for error handling
    // instantiate the web driver
     @Before
     public void TestSetUp(){
-        //fileHandler = new FileHandler("./test.log");
-        //formatter = new SimpleFormatter();
 
-        //FileHandler.setLevel(Level.ALL);
-        //FileHandler.setFormatter(formatter);
+        try {
+            fileHandler = new FileHandler(FilePath);
+        }catch (IOException e){
+            logger.info("Caught IOException: " + e);
+        }
 
-        //logger.addHandler(fileHandler);
+        formatter = new SimpleFormatter();
+
+        fileHandler.setLevel(Level.ALL);
+        fileHandler.setFormatter(formatter);
+
+        logger.addHandler(fileHandler);
         logger.info("@Before Begin Test");
 
         driver = new FirefoxDriver();
@@ -42,37 +52,20 @@ public class ExampleTest {
         driver.close();
     }
 
-
-
     // Navigate to the web page, perform an action and verify the result
     @Test
     public void FirstTestToExecute() {
         logger.info("FirstTestToExecute");
 
-        MainPage MainPageObject = new MainPage(driver);
-        MainPageObject = MainPageObject.NavigateToPage();
+        AbstractPage AbstractPageObject = new AbstractPage(driver);
 
-        MainPageObject.EnterTextInField();
-        MainPageObject.ClickButton();
-        MainPageObject.GetTextFromPage();
+        AbstractPageObject.NavigateToPage();
 
-        Assert.assertTrue(MainPageObject.GetTextFromPage().contains("Some Message"));
+       // MainPageObject.EnterTextInField();
+       // MainPageObject.ClickButton();
+       // MainPageObject.GetTextFromPage();
 
-    }
-
-    @Test
-    public void SecondTestToExecute() {
-
-        MainPage MainPageObject = new MainPage(driver);
-        MainPageObject = MainPageObject.NavigateToPage();
-
-        MainPageObject.EnterTextInField();
-        MainPageObject.ClickButton();
-        MainPageObject.GetTextFromPage();
-
-        Assert.assertTrue(MainPageObject.GetTextFromPage().contains("Some Message"));
+        //Assert.assertTrue(MainPageObject.GetTextFromPage().contains("Some Message"));
 
     }
-
-
 }
