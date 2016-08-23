@@ -1,0 +1,120 @@
+package TestDataManagement;
+
+/*
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
+import com.gui_auto.base_classes.GUI_automation_base;
+import com.gui_auto.base_classes.GUI_automation_properties;
+import com.gui_auto.beans.UsersListBean;
+
+*/
+
+/*
+
+Example Database query
+
+SELECT mtn.*
+FROM (
+    SELECT [patient_key], [rendering_provider_key]
+   FROM [claim_detail$]
+    WHERE [cpt_hcpcs_proc_cd] IN ('82330', '82374', '82435', '82565', '82947', '84132', '84295', '84520')
+    GROUP BY [patient_key], [rendering_provider_key] HAVING COUNT([cpt_hcpcs_proc_cd]) >= 8) AS [pat_matches]
+INNER JOIN [claim_detail$] AS mtn ON
+    mtn.[patient_key] = [pat_matches].[patient_key] AND
+    mtn.[rendering_provider_key] = [pat_matches].[rendering_provider_key]
+    WHERE mtn.[cpt_hcpcs_proc_cd] IN ('82330', '82374', '82435', '82565', '82947', '84132', '84295', '84520');
+
+ */
+
+
+public class ExcelDatabaseManager extends GUI_automation_base {}
+
+    /*
+    static Logger log = Logger.getLogger(DBCon.class.getName());
+
+    protected static GUI_automation_properties _properties = new GUI_automation_properties();
+
+
+
+    public  HashMap<Integer,HashMap<String,String>> queryExcel (String sheetName,String query) {
+        int x = 0;
+        HashMap<Integer,HashMap<String,String>> hmap = new HashMap<Integer,HashMap<String,String>>();
+        try {
+            Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+            Connection conn = DriverManager.getConnection(
+                    "jdbc:odbc:Driver={Microsoft Excel Driver (*.xls, *.xlsx, *.xlsm, *.xlsb)};" +
+                            "Dbq="+query+";");
+
+            PreparedStatement s = conn.prepareStatement(query);
+
+            s.execute();
+            ResultSet rs = s.getResultSet();
+            ResultSetMetaData rsmd = rs.getMetaData();
+            if (rs!=null) {
+                while (rs.next()) {
+                    HashMap<String,String> value = new HashMap<String,String>();
+                    value.put(rsmd.getColumnName(x), rs.getString(x));
+                    hmap.put(x, value);
+
+                }
+            }
+            s.close();
+
+            conn.close();
+        } catch( Exception e ) {
+            e.printStackTrace();
+            return null;
+        }
+        return hmap;
+    }
+
+    public  HashMap<Integer,HashMap<String,String>> queryDB (String dbConString,String query) {
+        int x = 0;
+        HashMap<Integer,HashMap<String,String>> hmap = new HashMap<Integer,HashMap<String,String>>();
+        try {
+            Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+            Connection conn = DriverManager.getConnection(dbConString+query+";");
+
+            PreparedStatement s = conn.prepareStatement(query);
+
+            s.execute();
+            ResultSet rs = s.getResultSet();
+            ResultSetMetaData rsmd = rs.getMetaData();
+            if (rs!=null) {
+                while (rs.next()) {
+                    HashMap<String,String> value = new HashMap<String,String>();
+                    value.put(rsmd.getColumnName(x), rs.getString(x));
+                    hmap.put(x, value);
+
+                }
+            }
+            s.close();
+
+            conn.close();
+        } catch( Exception e ) {
+            e.printStackTrace();
+            return null;
+        }
+        return hmap;
+    }
+
+}
+
+
+*/

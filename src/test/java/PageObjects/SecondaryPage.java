@@ -18,13 +18,13 @@ public class SecondaryPage extends AbstractPage {
     }
 
     public SecondaryPage ClickSecondaryButton(){
-/*
+
         try {
             driver.findElement(By.id(ClickButton)).click();
         } catch (Exception e) {
             Logger.log(Level.SEVERE, "Failed to find element ", e);
         }
-*/
+
         return new SecondaryPage(driver);
     }
 

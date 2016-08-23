@@ -15,14 +15,13 @@ public class MainPage extends AbstractPage {
 
     }
 
-    public MainPage ClickButton(){
+    public void ClickButton(){
         driver.findElement(By.id(ClickButtonSelector)).click();
-        return new MainPage(driver);
+
     }
 
-    public MainPage EnterTextInField() {
+    public void EnterTextInField() {
         driver.findElement(By.id(EnterTextInFieldSelector)).sendKeys("SomeText");
-        return new MainPage(driver);
     }
 
     public String GetTextFromPage() {

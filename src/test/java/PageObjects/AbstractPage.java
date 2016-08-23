@@ -15,8 +15,8 @@ public class AbstractPage {
         return driver;
     }
 
-    public MainPage NavigateToPage() {
+    public AbstractPage NavigateToPage() {
         driver.navigate().to("www.google.com");
-        return new MainPage(driver);
+        return new AbstractPage(driver);
     }
 }
