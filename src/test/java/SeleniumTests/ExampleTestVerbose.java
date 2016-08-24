@@ -1,6 +1,6 @@
 package SeleniumTests;
 
-import PageObjects.AbstractPage;
+import PageObjects.CommonObj;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,11 +10,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.io.IOException;
 import java.util.logging.*;
 
-public class ExampleTest2 {
+public class ExampleTestVerbose {
 
     WebDriver driver;
 
-    private static final Logger logger = Logger.getLogger(ExampleTest2.class.getName());
+    private static final Logger logger = Logger.getLogger(ExampleTestVerbose.class.getName());
     public Handler fileHandler = null;
     public Formatter formatter = null;
 
@@ -24,8 +24,6 @@ public class ExampleTest2 {
     // instantiate the web driver
     @Before
     public void TestSetUp(){
-
-        driver = new FirefoxDriver();
 
        try {
            fileHandler = new FileHandler(FilePath);
@@ -39,6 +37,8 @@ public class ExampleTest2 {
         fileHandler.setFormatter(formatter);
 
         logger.addHandler(fileHandler);
+
+        driver = new FirefoxDriver();
 
         logger.info("@Before test setup complete");
     }
@@ -55,7 +55,7 @@ public class ExampleTest2 {
     public void FirstTestToExecute() {
         logger.info("FirstTestToExecute");
 
-        AbstractPage AbstractObject = new AbstractPage(driver);
+        CommonObj AbstractObject = new CommonObj(driver);
 
 
         //MainPage MainPageObject = new MainPage(driver);

@@ -2,22 +2,20 @@ package PageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
-public class SecondaryPage extends AbstractPage {
+public class SecondaryPageObj extends CommonObj {
 
 
     public static final String ClickButton = "SecondarySelector";
     public static final String EnterTextInField = "SecondarySelector";
     public static final String GetTextFromPage = "SecondarySelector";
 
-    public SecondaryPage(WebDriver driver){
+    public SecondaryPageObj(WebDriver driver){
         super(driver);
 
     }
 
-    public SecondaryPage ClickSecondaryButton(){
+    public SecondaryPageObj ClickSecondaryButton(){
 
         try {
             driver.findElement(By.id(ClickButton)).click();
@@ -25,12 +23,12 @@ public class SecondaryPage extends AbstractPage {
            System.out.println ("Failed to find element");
         }
 
-        return new SecondaryPage(driver);
+        return new SecondaryPageObj(driver);
     }
 
-    public SecondaryPage EnterTextInSecondaryField() {
+    public SecondaryPageObj EnterTextInSecondaryField() {
         driver.findElement(By.id(EnterTextInField)).sendKeys("SecondaryText");
-        return new SecondaryPage(driver);
+        return new SecondaryPageObj(driver);
     }
 
     public String GetTextFromSecondaryPage() {

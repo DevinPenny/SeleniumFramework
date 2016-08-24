@@ -3,11 +3,11 @@ package PageObjects;
 import org.openqa.selenium.WebDriver;
 
 
-public class AbstractPage {
+public class CommonObj {
 
     protected WebDriver driver;
 
-    public AbstractPage (WebDriver driver) {
+    public CommonObj(WebDriver driver) {
         this.driver = driver;
     }
 
@@ -15,8 +15,8 @@ public class AbstractPage {
         return driver;
     }
 
-    public AbstractPage NavigateToPage() {
+    public CommonObj NavigateToPage() {
         driver.navigate().to("www.google.com");
-        return new AbstractPage(driver);
+        return new CommonObj(driver);
     }
 }

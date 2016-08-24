@@ -3,7 +3,7 @@ package PageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class LoginPageObject extends AbstractPage {
+public class LoginPageObj extends CommonObj {
 
     WebDriver driver;
 
@@ -14,7 +14,7 @@ public class LoginPageObject extends AbstractPage {
     public String Sel_PassWord = "password";
     public String Sel_Submit = "submit";
 
-    public LoginPageObject(WebDriver driver){
+    public LoginPageObj(WebDriver driver){
         super(driver);
     }
 

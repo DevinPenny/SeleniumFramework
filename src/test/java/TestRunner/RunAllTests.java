@@ -1,12 +1,12 @@
 package TestRunner;
 
 
-import SeleniumTests.ExampleTest;
+import SeleniumTests.ExampleTestClean;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
-@Suite.SuiteClasses({ExampleTest.class})
+@Suite.SuiteClasses({ExampleTestClean.class})
 
 
 public class RunAllTests {}

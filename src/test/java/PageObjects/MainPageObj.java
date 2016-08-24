@@ -3,14 +3,14 @@ package PageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class MainPage extends AbstractPage {
+public class MainPageObj extends CommonObj {
 
 
     public static final String ClickButtonSelector = "SomeSelector";
     public static final String EnterTextInFieldSelector = "SomeSelector";
     public static final String GetTextFromPageSelector = "SomeSelector";
 
-    public MainPage(WebDriver driver){
+    public MainPageObj(WebDriver driver){
         super(driver);
 
     }
