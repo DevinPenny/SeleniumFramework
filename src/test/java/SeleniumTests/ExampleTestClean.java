@@ -4,10 +4,9 @@ import PageObjects.CommonObj;
 import PageObjects.LoginPageObj;
 import PageObjects.MainPageObj;
 
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
+import org.junit.rules.TestWatcher;
+import org.junit.runner.Description;
 
 
 public class ExampleTestClean extends AbstractWebDriver {
@@ -16,28 +15,27 @@ public class ExampleTestClean extends AbstractWebDriver {
     LoginPageObj Login = new LoginPageObj(driver);
     MainPageObj MainPage = new MainPageObj(driver);
 
-    @Before
-    public void TestSetUp(){
-        //Navigate to application before executing test
-        CommonObj.NavigateToPage();
-    }
 
-    @After
-    public void testShutDown(){
-        //clean up is performed in AbstractWebDriver class
-        System.out.println("Test Complete!");
-    }
+    @Rule
+    public TestWatcher listen = new TestWatcher() {
+
+        @Override
+        public void failed (Throwable t, Description description){
+            System.out.println("Test Failed!");
+            System.out.println(description.getClassName() + ", " + description.getMethodName());
+            //report error to test management tool here
+
+        }
+    };
+
 
     @Test
     public void FirstTestToExecute() {
-        //enter user credentials (username/password)
-        LoginPageObj.EnterLoginCredentials();
 
-        //click the log in button
-        LoginPageObj.ClickLogIn();
+        Navigate.NavigateToPage();
 
         //Verify the result
-        Assert.assertTrue(MainPageObj.GetTextFromPage().contains("Some Message"));
+        Assert.assertTrue(MainPage.GetTextFromPage().contains("Some Message"));
 
     }
 }

@@ -1,2 +1,4 @@
-Aug 23, 2016 6:29:31 PM SeleniumTests.ExampleTest TestSetUp
-INFO: @Before Begin Test
+Aug 24, 2016 5:39:48 PM SeleniumTests.ExampleTestVerbose testShutDown
+INFO: @After test shut down
+Aug 24, 2016 5:39:48 PM SeleniumTests.ExampleTestVerbose$1 failed
+INFO: test failed!!

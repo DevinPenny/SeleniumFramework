@@ -57,6 +57,8 @@ public TestWatcher listen = new TestWatcher() {
 
     @Override
     public void failed(Throwable t, Description description) {
+
+        logger.info("test failed!!");
         System.out.println("Test Failed!");
         System.out.println(description.getClassName() + ", " + description.getMethodName());
     }
