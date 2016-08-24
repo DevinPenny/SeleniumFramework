@@ -34,11 +34,7 @@ FROM (
     SELECT [patient_key], [rendering_provider_key]
    FROM [claim_detail$]
     WHERE [cpt_hcpcs_proc_cd] IN ('82330', '82374', '82435', '82565', '82947', '84132', '84295', '84520')
-    GROUP BY [patient_key], [rendering_provider_key] HAVING COUNT([cpt_hcpcs_proc_cd]) >= 8) AS [pat_matches]
-INNER JOIN [claim_detail$] AS mtn ON
-    mtn.[patient_key] = [pat_matches].[patient_key] AND
-    mtn.[rendering_provider_key] = [pat_matches].[rendering_provider_key]
-    WHERE mtn.[cpt_hcpcs_proc_cd] IN ('82330', '82374', '82435', '82565', '82947', '84132', '84295', '84520');
+
 
  */
 
