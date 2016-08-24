@@ -3,17 +3,18 @@ package PageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class MainPageObj extends CommonObj {
+public class MainPageObj {
 
+    WebDriver driver;
 
     public static final String ClickButtonSelector = "SomeSelector";
     public static final String EnterTextInFieldSelector = "SomeSelector";
     public static final String GetTextFromPageSelector = "SomeSelector";
 
-    public MainPageObj(WebDriver driver){
-        super(driver);
-
+    public MainPageObj(WebDriver driver) {
+        this.driver = driver;
     }
+
 
     public void ClickButton(){
         driver.findElement(By.id(ClickButtonSelector)).click();
