@@ -14,15 +14,15 @@ public class AbstractWebDriver {
 
     @Before
     public void TestSetUp() {
-        driver = new FirefoxDriver();
+        //driver = new FirefoxDriver();
         SelCommonElements = new CommonObj(driver);
-        System.out.print("Driver loaded before test");
+        System.out.println("Driver loaded before test");
     }
 
     @After
     public void testShutDown(){
         driver.close();
-        System.out.print("Driver closed after test");
+        System.out.println("Driver closed after test");
     }
 
 }

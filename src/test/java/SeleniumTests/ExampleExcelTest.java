@@ -56,7 +56,7 @@ public class ExampleExcelTest extends AbstractWebDriver {
 
         for (int i = 1; i < data.size(); i++ ){
             for (int j = 0; j < data.get(i).size(); j++){
-                System.out.println(data.get(i).get(j));
+                System.out.println("excel data: i=" + i + " " + data.get(i).get(j));
 
                 //do data drive things here
 

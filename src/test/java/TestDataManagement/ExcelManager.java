@@ -47,10 +47,10 @@ public class ExcelManager {
                             rowData.add(String.valueOf(cell.getBooleanCellValue()));
                             break;
                         case Cell.CELL_TYPE_NUMERIC:
-                            rowData.add(String.valueOf(cell.getBooleanCellValue()));
+                            rowData.add(String.valueOf(cell.getNumericCellValue()));
                             break;
                         case Cell.CELL_TYPE_STRING:
-                            rowData.add(String.valueOf(cell.getBooleanCellValue()));
+                            rowData.add(String.valueOf(cell.getStringCellValue()));
                             break;
                         }
                     }
