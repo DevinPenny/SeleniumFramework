@@ -1,6 +1,5 @@
 package TestDataManagement;
 
-/*
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.sql.Connection;
@@ -16,17 +15,8 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
-
-import com.gui_auto.base_classes.GUI_automation_base;
-import com.gui_auto.base_classes.GUI_automation_properties;
-import com.gui_auto.beans.UsersListBean;
-
-*/
 
 /*
-
 Example Database query
 
 SELECT mtn.*
@@ -34,19 +24,16 @@ FROM (
     SELECT [patient_key], [rendering_provider_key]
    FROM [claim_detail$]
     WHERE [cpt_hcpcs_proc_cd] IN ('82330', '82374', '82435', '82565', '82947', '84132', '84295', '84520')
-
-
  */
 
 
-public class ExcelDatabaseManager extends GUI_automation_base {}
+public class ExcelDatabaseManager {
 
-    /*
-    static Logger log = Logger.getLogger(DBCon.class.getName());
-
-    protected static GUI_automation_properties _properties = new GUI_automation_properties();
+    String excelPath = "src/test/java/TestDataManagement/ExcelData/automationExample.xlsx";
+    String query = "SQL QUERY GOES HERE";
 
 
+    //query an excel file
 
     public  HashMap<Integer,HashMap<String,String>> queryExcel (String sheetName,String query) {
         int x = 0;
@@ -56,6 +43,7 @@ public class ExcelDatabaseManager extends GUI_automation_base {}
             Connection conn = DriverManager.getConnection(
                     "jdbc:odbc:Driver={Microsoft Excel Driver (*.xls, *.xlsx, *.xlsm, *.xlsb)};" +
                             "Dbq="+query+";");
+
 
             PreparedStatement s = conn.prepareStatement(query);
 
@@ -79,6 +67,9 @@ public class ExcelDatabaseManager extends GUI_automation_base {}
         }
         return hmap;
     }
+
+
+    //****** query a database
 
     public  HashMap<Integer,HashMap<String,String>> queryDB (String dbConString,String query) {
         int x = 0;
@@ -111,6 +102,3 @@ public class ExcelDatabaseManager extends GUI_automation_base {}
     }
 
 }
-
-
-*/
