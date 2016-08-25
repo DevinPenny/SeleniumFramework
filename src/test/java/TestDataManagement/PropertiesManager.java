@@ -9,9 +9,11 @@ import java.util.Properties;
 
 public class PropertiesManager {
 
+
+
     public String TestNameField = "";
     public String ExecutionStatus = "";
-    public String Parameter1 = "";
+    public String ExcelPath = "excelPath";
     public String Parameter2 = "";
 
     public void GetData(){
@@ -24,6 +26,7 @@ public class PropertiesManager {
 
             TestNameField = data.get("TestField").toString();
             ExecutionStatus = data.get("ExecuteStatus").toString();
+            ExcelPath = data.get("excelPath").toString();
 
         } catch (IOException e) {
             e.printStackTrace();

@@ -16,7 +16,9 @@ public class RandomDataGenerator {
             sb.append(characters.charAt(random.nextInt(characters.length())));
         }
 
-        return sb.toString();
+        //fix this later
+        //return sb.asString();
+        return null;
     }
 
 

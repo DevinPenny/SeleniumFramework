@@ -1,8 +1,12 @@
 package TestDataManagement;
 
 
-import org.apache.poi.hssf.usermodel.HSSFSheet;
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+//import org.apache.poi.hssf.usermodel.HSSFSheet;
+//import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 
@@ -23,8 +27,8 @@ public class ExcelManager {
         try {
             FileInputStream file = new FileInputStream(new File(fileName));
 
-            HSSFWorkbook workbook = new HSSFWorkbook(file);
-            HSSFSheet sheet = workbook.getSheetAt(0);
+            XSSFWorkbook workbook = new XSSFWorkbook(file);
+            XSSFSheet sheet = workbook.getSheetAt(0);
 
             Iterator<Row> rowIterator = sheet.iterator();
 
