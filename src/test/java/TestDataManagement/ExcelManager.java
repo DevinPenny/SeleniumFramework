@@ -1,10 +1,9 @@
 package TestDataManagement;
 
-
-
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+//if the excel file is .xls then use the following
 //import org.apache.poi.hssf.usermodel.HSSFSheet;
 //import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
@@ -56,7 +55,6 @@ public class ExcelManager {
                     }
                     table.add(rowData);
                 }
-
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
