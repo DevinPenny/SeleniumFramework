@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8641a1b1-3f0d-43e9-9daa-1516e252f0b3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTests/ConditionalIgnoreRule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleConditionalTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTests/ExampleExcelTest.class" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTests/ExampleExcelTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestDataManagement/ExcelManager.class" afterPath="$PROJECT_DIR$/target/test-classes/TestDataManagement/ExcelManager.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleTestClean.java" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleCleanTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SeleniumTests/AbstractWebDriver.java" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTests/AbstractWebDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleExcelTest.java" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleExcelTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleTestClean.java" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleTestClean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestRunner/RunAllTests.java" afterPath="$PROJECT_DIR$/src/test/java/TestRunner/RunAllTests.java" />
     </list>
     <ignored path="SeleniumFramework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,8 +30,8 @@
       <file leaf-file-name="ExampleExcelTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleExcelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40376568">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8472803">
+              <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -805,7 +800,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -814,7 +809,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25608012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -886,7 +881,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleTestClean.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleCleanTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
@@ -1043,7 +1038,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleTestClean.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleCleanTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.748954">
           <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
@@ -1090,8 +1085,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleExcelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40376568">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8472803">
+          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

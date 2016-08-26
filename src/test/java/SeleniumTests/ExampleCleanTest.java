@@ -9,7 +9,7 @@ import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
 
 
-public class ExampleTestClean extends AbstractWebDriver {
+public class ExampleCleanTest extends AbstractWebDriver {
 
     CommonObj Navigate = new CommonObj(driver);
     LoginPageObj Login = new LoginPageObj(driver);
