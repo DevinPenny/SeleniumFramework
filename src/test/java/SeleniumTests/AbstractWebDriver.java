@@ -21,7 +21,7 @@ public class AbstractWebDriver {
 
     @After
     public void testShutDown(){
-        driver.close();
+        //driver.close();
         System.out.println("Driver closed after test");
     }
 

@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8641a1b1-3f0d-43e9-9daa-1516e252f0b3" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/TestDataManagement/ExcelDatabaseManager.java.txt" afterPath="$PROJECT_DIR$/src/test/java/TestDataManagement/ExcelDatabaseManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTests/ConditionalIgnoreRule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleConditionalTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTests/ExampleExcelTest.class" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTests/ExampleExcelTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestDataManagement/ExcelManager.class" afterPath="$PROJECT_DIR$/target/test-classes/TestDataManagement/ExcelManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SeleniumTests/AbstractWebDriver.java" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTests/AbstractWebDriver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleExcelTest.java" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleExcelTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleTestClean.java" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleTestClean.java" />
     </list>
     <ignored path="SeleniumFramework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,32 +32,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ExampleExcelTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ExampleExcelTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleExcelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.40376568">
+              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#860#1183#0" expanded="true" />
-                <element signature="e#1182#1183#0" expanded="true" />
-                <element signature="e#1351#1359#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExcelDatabaseManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestDataManagement/ExcelDatabaseManager.java">
+      <file leaf-file-name="ExampleConditionalTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleConditionalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7175732">
-              <caret line="88" column="70" selection-start-line="88" selection-start-column="70" selection-end-line="88" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="56" column="62" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1107#1139#0" expanded="true" />
-                <element signature="e#1739#1754#0" expanded="true" />
-                <element signature="e#2294#2326#0" expanded="true" />
-                <element signature="e#2802#2817#0" expanded="true" />
+                <element signature="e#1341#1349#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,7 +93,6 @@
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/MainPageObj.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestRunner/RunAllTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleTestVerbose.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleTestClean.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestDataManagement/ExcelDatabaseManager.java.txt" />
         <option value="$PROJECT_DIR$/src/test/java/TestDataManagement/ExcelManager.java.txt" />
         <option value="$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleFailureTest.java" />
@@ -102,10 +100,13 @@
         <option value="$PROJECT_DIR$/src/test/java/TestDataManagement/PropertiesFiles/executeList.properties" />
         <option value="$PROJECT_DIR$/src/test/java/TestDataManagement/PropertiesManager.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/SeleniumTests/AbstractWebDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestDataManagement/ExcelManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleExcelTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestDataManagement/ExcelDatabaseManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SeleniumTests/ConditionalIgnoreRule.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleTestClean.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SeleniumTests/AbstractWebDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleConditionalTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleExcelTest.java" />
       </list>
     </option>
   </component>
@@ -122,9 +123,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
+    <option name="x" value="4" />
     <option name="y" value="23" />
-    <option name="width" value="1326" />
+    <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -152,7 +153,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,36 +223,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TestDataManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SeleniumFramework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SeleniumFramework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestDataManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PropertiesFiles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,8 +320,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,85 +335,7 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExampleExcelTest">
-    <configuration default="false" name="ExampleExcelTest.FirstTestToExecute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SeleniumFramework" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="SeleniumTests" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTests.ExampleExcelTest" />
-      <option name="METHOD_NAME" value="FirstTestToExecute" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ExampleTestVerbose.FirstTestToExecute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SeleniumFramework" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="SeleniumTests" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTests.ExampleTestVerbose" />
-      <option name="METHOD_NAME" value="FirstTestToExecute" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ExampleTestVerbose" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SeleniumFramework" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="SeleniumTests" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTests.ExampleTestVerbose" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ExampleExcelTest.workWithExcel">
     <configuration default="false" name="ExampleExcelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -482,6 +375,84 @@
       <option name="PACKAGE_NAME" value="SeleniumTests" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTests.ExampleExcelTest" />
       <option name="METHOD_NAME" value="workWithExcel" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExampleConditionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SeleniumFramework" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="SeleniumTests" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTests.ExampleConditionalTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExampleConditionalTest.testFocus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SeleniumFramework" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="SeleniumTests" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTests.ExampleConditionalTest" />
+      <option name="METHOD_NAME" value="testFocus" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExampleConditionalTest.testThatCanBeFilteredOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SeleniumFramework" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="SeleniumTests" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTests.ExampleConditionalTest" />
+      <option name="METHOD_NAME" value="testThatCanBeFilteredOut" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -752,19 +723,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ExampleExcelTest.FirstTestToExecute" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ExampleTestVerbose.FirstTestToExecute" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ExampleTestVerbose" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ExampleExcelTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ExampleExcelTest.workWithExcel" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ExampleExcelTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ExampleExcelTest.workWithExcel" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ExampleConditionalTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ExampleConditionalTest.testFocus" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ExampleConditionalTest.testThatCanBeFilteredOut" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ExampleExcelTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ExampleExcelTest.workWithExcel" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ExampleTestVerbose" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ExampleTestVerbose.FirstTestToExecute" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ExampleExcelTest.FirstTestToExecute" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ExampleExcelTest.workWithExcel" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ExampleConditionalTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ExampleConditionalTest.testThatCanBeFilteredOut" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ExampleConditionalTest.testFocus" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ExampleExcelTest" />
       </list>
     </recent_temporary>
   </component>
@@ -801,39 +772,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExampleExcelTest - 2016.08.24 at 19h 52m 27s.xml">
-      <configuration name="ExampleExcelTest" configurationId="JUnit" />
+    <history-entry file="ExampleConditionalTest - 2016.08.25 at 20h 01m 04s.xml">
+      <configuration name="ExampleConditionalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleExcelTest - 2016.08.24 at 19h 53m 36s.xml">
-      <configuration name="ExampleExcelTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExampleExcelTest - 2016.08.24 at 20h 15m 24s.xml">
-      <configuration name="ExampleExcelTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExampleExcelTest - 2016.08.24 at 20h 17m 25s.xml">
-      <configuration name="ExampleExcelTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExampleExcelTest_workWithExcel - 2016.08.24 at 20h 14m 15s.xml">
+    <history-entry file="ExampleExcelTest_workWithExcel - 2016.08.25 at 19h 45m 27s.xml">
       <configuration name="ExampleExcelTest.workWithExcel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleExcelTest_workWithExcel - 2016.08.24 at 20h 16m 34s.xml">
+    <history-entry file="ExampleExcelTest_workWithExcel - 2016.08.25 at 19h 47m 40s.xml">
       <configuration name="ExampleExcelTest.workWithExcel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleFailureTest_FirstTestToExecute - 2016.08.24 at 17h 36m 52s.xml">
-      <configuration name="ExampleFailureTest.FirstTestToExecute" configurationId="JUnit" />
+    <history-entry file="ExampleExcelTest_workWithExcel - 2016.08.25 at 19h 51m 10s.xml">
+      <configuration name="ExampleExcelTest.workWithExcel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleTestVerbose - 2016.08.24 at 17h 39m 49s.xml">
-      <configuration name="ExampleTestVerbose" configurationId="JUnit" />
+    <history-entry file="ExampleExcelTest_workWithExcel - 2016.08.25 at 19h 51m 24s.xml">
+      <configuration name="ExampleExcelTest.workWithExcel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleTestVerbose_FirstTestToExecute - 2016.08.24 at 17h 38m 48s.xml">
-      <configuration name="ExampleTestVerbose.FirstTestToExecute" configurationId="JUnit" />
+    <history-entry file="ExampleExcelTest_workWithExcel - 2016.08.25 at 19h 51m 34s.xml">
+      <configuration name="ExampleExcelTest.workWithExcel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExampleTest_FirstTestToExecute - 2016.08.23 at 18h 28m 19s.xml">
-      <configuration name="ExampleTest.FirstTestToExecute" configurationId="JUnit" />
+    <history-entry file="ExampleExcelTest_workWithExcel - 2016.08.25 at 19h 51m 51s.xml">
+      <configuration name="ExampleExcelTest.workWithExcel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExampleExcelTest_workWithExcel - 2016.08.25 at 19h 53m 12s.xml">
+      <configuration name="ExampleExcelTest.workWithExcel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExampleExcelTest_workWithExcel - 2016.08.25 at 20h 03m 28s.xml">
+      <configuration name="ExampleExcelTest.workWithExcel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExampleExcelTest_workWithExcel - 2016.08.25 at 20h 04m 10s.xml">
+      <configuration name="ExampleExcelTest.workWithExcel" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="23" width="1326" height="873" extended-state="0" />
+    <frame x="4" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -846,7 +817,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2788162" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25608012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -878,7 +849,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -887,13 +858,31 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleExcelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestDataManagement/ExcelDatabaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTests/AbstractWebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -901,9 +890,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#791#792#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -914,6 +901,8 @@
           <folding>
             <element signature="e#159#160#0" expanded="false" />
             <element signature="e#195#196#0" expanded="false" />
+            <element signature="e#231#232#0" expanded="false" />
+            <element signature="e#260#261#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -924,8 +913,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#860#1183#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -934,9 +921,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -944,19 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner/RunAllTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37656903">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -969,16 +941,6 @@
             <element signature="e#195#196#0" expanded="false" />
             <element signature="e#231#232#0" expanded="false" />
             <element signature="e#260#261#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleTestClean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5292887">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <element signature="e#791#792#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1011,7 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52428573">
           <caret line="95" column="19" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,7 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06276151">
           <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1061,15 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12552302">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTests/AbstractWebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31380752">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,35 +1029,71 @@
         <state vertical-scroll-proportion="0.43933055">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding>
-            <element signature="e#703#717#0" expanded="true" />
-            <element signature="e#1082#1090#0" expanded="true" />
+            <element signature="e#703#717#0" expanded="false" />
+            <element signature="e#1082#1090#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner/RunAllTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20632738">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleTestClean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.748954">
+          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestDataManagement/ExcelDatabaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.8556485">
+          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTests/AbstractWebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56485355">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTests/ConditionalIgnoreRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62761503">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleConditionalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="62" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1341#1349#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumTests/ExampleExcelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.40376568">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#860#1183#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1351#1359#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestDataManagement/ExcelDatabaseManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7175732">
-          <caret line="88" column="70" selection-start-line="88" selection-start-column="70" selection-end-line="88" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1107#1139#0" expanded="true" />
-            <element signature="e#1739#1754#0" expanded="true" />
-            <element signature="e#2294#2326#0" expanded="true" />
-            <element signature="e#2802#2817#0" expanded="true" />
           </folding>
         </state>
       </provider>

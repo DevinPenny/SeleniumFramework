@@ -38,4 +38,6 @@ public class ExampleTestClean extends AbstractWebDriver {
         Assert.assertTrue(MainPage.GetTextFromPage().contains("Some Message"));
 
     }
+
+
 }

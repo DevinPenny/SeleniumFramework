@@ -54,14 +54,22 @@ public class ExampleExcelTest extends AbstractWebDriver {
         List<String> results = new ArrayList<String>();
         results.add("Results");
 
+
+        System.out.println("excel data: " + data);
+        System.out.println(System.getProperty("os.name"));
+
         for (int i = 1; i < data.size(); i++ ){
             for (int j = 0; j < data.get(i).size(); j++){
-                System.out.println("excel data: i=" + i + " " + data.get(i).get(j));
-
+                //System.out.println("excel data: i=" + i + " " + data.get(i) + " " + data.get(j));
+                //System.out.println("excel data: " + data.get(2).get(2));
                 //do data driven things from here
+                //System.out.println("excel data: " + data);
+
+
 
             }
         }
+
 
     }
 /*
